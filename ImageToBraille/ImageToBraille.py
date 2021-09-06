@@ -44,6 +44,7 @@ else:
 
 userin=input("Do you want to resize the image? (y/n) ")
 if userin=="y":
+    resize=True
     resizeX=int(input("input the width to resize to in pixels "))
     resizeY=int(input("input the height to resize to in pixels "))
 else:
