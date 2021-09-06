@@ -43,7 +43,7 @@ else:
     otsu=False
 
 userin=input("Do you want to resize the image? (y/n) ")
-if userin=="y"
+if userin=="y":
     resizeX=int(input("input the width to resize to in pixels "))
     resizeY=int(input("input the height to resize to in pixels "))
 else:
